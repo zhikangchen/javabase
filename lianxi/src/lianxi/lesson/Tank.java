@@ -117,7 +117,10 @@ public class Tank {
 		/**
 		 * new 关键字，创建一个新的实例
 		 */
+		
 		Tank tank1 = new Tank();
+		//tank1.model;
+		System.out.println(tank1.model);
 		String color = tank1.getColor();
 		System.out.println("坦克的颜色 ："+color);
 		
